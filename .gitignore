@@ -1,0 +1,8 @@
+# IDE project files #
+.idea/
+*iml
+
+# node / npm #
+node_modules
+screenshots
+package-lock.json
