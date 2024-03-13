@@ -5,3 +5,4 @@
 - Part #3: Visual test with Applitools
   - Register an Applitool account, then get apiKey
   - Require to install 2 additional dependencies: npm install @applitools/eyes-cypress & npx eyes-setup
+- Part #4: Analytics test
