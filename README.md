@@ -6,3 +6,4 @@
   - Register an Applitool account, then get apiKey
   - Require to install 2 additional dependencies: npm install @applitools/eyes-cypress & npx eyes-setup
 - Part #4: Analytics test
+- Part #5: Run in Docker Container & Setup CI/CD with GitHub Actions
