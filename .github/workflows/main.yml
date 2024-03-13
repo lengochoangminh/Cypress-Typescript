@@ -1,0 +1,11 @@
+name: Cypress Test
+on: [push]
+jobs:
+ cypress-test:
+   runs-on: ubuntu-latest
+   steps:
+     - uses: actions/checkout@v3
+     - uses: cypress-io/github-action@v5
+       with:
+         command: npx cypress run --spec cypress/e2e/DemoQELibrary.cy.ts
+         browser: chrome

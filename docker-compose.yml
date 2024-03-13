@@ -1,0 +1,22 @@
+version: 'cypress-docker-v1'
+services:
+
+  cypress-chrome:
+    image: cypress/included:13.2.0
+    command: "--browser chrome"
+    working_dir: /cypress
+    volumes:
+      - ./:/cypress
+
+  # cypress-firefox:
+  #   image: cypress/included:13.2.0
+  #   commandocd: "--browser firefox"
+  #   working_dir: /cypress
+  #   volumes:
+  #     - ./:/cypress
+
+  cypress-electron:
+    image: cypress/included:13.2.0
+    working_dir: /cypress
+    volumes:
+      - ./:/cypress
