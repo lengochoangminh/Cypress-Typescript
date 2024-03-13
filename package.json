@@ -9,7 +9,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "axe-core": "^4.8.4",
     "cypress": "^13.6.6",
+    "cypress-axe": "^1.5.0",
     "typescript": "^5.4.2"
   }
 }
