@@ -21,3 +21,4 @@
 
 import { QELibrary } from "./QELibrary";
 global.qe = new QELibrary();
+global.enableAlly = true;
